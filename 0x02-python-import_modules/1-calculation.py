@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-if _name__ == "__man__":
+if _name__ == "__main__":
     from add_0 import add, sub, div, mul
 
 a = 10
