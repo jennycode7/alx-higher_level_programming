@@ -5,11 +5,13 @@ import sys
 
 
 def main():
-    if len(sys.argv) == 3:
-        x = int(sys.argv[1])
-        y = int(sys.argv[2])
+    
+    x = 0
+    if len(sys.argv) > 1:
+        for y in sys.argv[1:]:
+            x += int(y)
 
-        print("{}".format(x + y))
+        print("{}".format(x))
 
     else:
         print("0")
