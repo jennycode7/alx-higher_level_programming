@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
 
+"""
+This is an empty class
+"""
+
+
 class Square:
-    """A square with a side length
-
-    this is an empty class
-
-    """
     pass
