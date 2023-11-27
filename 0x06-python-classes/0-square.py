@@ -3,5 +3,8 @@
 
 class Square:
     """A square with a side length
+
+    this is an empty class
+
     """
     pass
