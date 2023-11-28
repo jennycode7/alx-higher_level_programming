@@ -12,11 +12,10 @@ class Rectangle:
     def __init__(self, width, height):
         """
         sets  the width and height
-        
+        """
 
         self.check_width(width)
         self.check_heigth(height)
-        """
 
         self.width = width
         self.height = height
