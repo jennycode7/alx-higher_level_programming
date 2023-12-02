@@ -5,7 +5,7 @@ for x in range(1, 101):
     elif x % 3 == 0:
         print("Fizz ", end='')
     elif x == 100:
-        print("Buzz", end='\n')
+        print("Buzz ", end='\n')
         break
     elif x % 5 == 0:
         print("Buzz ", end='')
