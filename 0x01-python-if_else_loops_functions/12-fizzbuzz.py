@@ -6,7 +6,7 @@ def fizzbuzz():
         elif x % 3 == 0:
             print("Fizz ", end='')
         elif x == 100:
-            print("Buzz ", end='\n')
+            print("Buzz ", end='')
             break
         elif x % 5 == 0:
             print("Buzz ", end='')
