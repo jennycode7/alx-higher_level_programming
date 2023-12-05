@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+"""python file input and output"""
 
 def read_file(filename=""):
     """
