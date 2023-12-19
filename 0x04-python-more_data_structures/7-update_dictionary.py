@@ -4,12 +4,10 @@
 def update_dictionary(a_dictionary, key, value):
     """
     Updates the value of a key in a dictionary.
-    
     Args:
     a_dictionary (dict): a dictionary
     key (str): a key
     value (str): a value
-    
     Returns:
     dict: the updated dictionary
     """
