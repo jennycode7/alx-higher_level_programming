@@ -9,9 +9,9 @@ def safe_print_list_integers(my_list=[], x=0):
     x (int): An integer.
     """
     y = 0
-    for char in my_list[:x]:
+    for a in range(x):
         try:
-            print("{:d}".format(char), end='')
+            print("{:d}".format(my_list[a]), end='')
             y = y + 1
         except (TypeError, ValueError):
             continue
