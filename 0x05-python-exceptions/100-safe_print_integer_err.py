@@ -3,6 +3,7 @@
 
 import sys
 
+
 def safe_print_integer_err(value):
     """
     Prints the integer value to stdout.
