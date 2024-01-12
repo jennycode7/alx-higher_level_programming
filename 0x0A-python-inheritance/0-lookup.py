@@ -4,6 +4,8 @@
 """
 to get attr
 """
+
+
 def lookup(obj):
     """
     for attributes and methods
