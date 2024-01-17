@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """
-A module
+A module for inheritance from Base Geometry
 """
-        
+
+
 class Rectangle(BaseGeometry):
     """
     Class Rectangle inherits from BaseGoemetry
@@ -15,4 +16,3 @@ class Rectangle(BaseGeometry):
         self.integer_validator("height", height)
         self.__width = width
         self.__height = height
-
