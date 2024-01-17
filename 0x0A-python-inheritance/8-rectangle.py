@@ -2,11 +2,14 @@
 """
 A module for inheritance from Base Geometry
 """
+BaseGeometry = __import__("7-base_geometry").BaseGeometry
 
 
 class Rectangle(BaseGeometry):
     """
     Class Rectangle inherits from BaseGoemetry
+
+    BaseGeometry: another class
     """
     def __init__(self, width, height):
         """
