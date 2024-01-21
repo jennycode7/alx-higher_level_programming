@@ -5,7 +5,7 @@ How to use 0-add_integer.py
 Import function from module
 ----------------------------
 
->>> add_integer = __import__('my_python').add_integer
+>>> add_integer = __import__('0-add_integer').add_integer
 
 
 
