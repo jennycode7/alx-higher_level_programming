@@ -1,0 +1,24 @@
+
+==========================
+How to use 0-add_integer.py
+==========================
+
+Import function from module
+----------------------------
+
+
+>>> say_my_name = __import__('my_python').say_my_name
+
+
+
+#These are the different test cases
+
+>>> say_my_name("john", "Mayer")
+My name is john Mayer
+
+>>> say_my_name("jennifer")
+My name is jennifer 
+
+>>> say_my_name("louis", 12)
+Traceback (most recent call last):
+TypeError: last_name must be a string
