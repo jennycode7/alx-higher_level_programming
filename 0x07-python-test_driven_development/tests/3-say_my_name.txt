@@ -19,6 +19,11 @@ My name is john Mayer
 >>> say_my_name("jennifer")
 My name is jennifer 
 
+>>> say_my_name(12, "louis")
+Traceback (most recent call last):
+TypeError: first_name must be a string
+
+
 >>> say_my_name("louis", 12)
 Traceback (most recent call last):
 TypeError: last_name must be a string
