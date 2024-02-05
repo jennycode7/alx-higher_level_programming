@@ -7,7 +7,7 @@ Import function from module
 ----------------------------
 
 
->>> say_my_name = __import__('my_python').say_my_name
+>>> say_my_name = __import__('3-say_my_name').say_my_name
 
 
 
@@ -23,6 +23,13 @@ My name is jennifer
 Traceback (most recent call last):
 TypeError: first_name must be a string
 
+>>> say_my_name(64)
+Traceback (most recent call last):
+TypeError: first_name must be a string
+
+>>> say_my_name("first", "second", "third")
+Traceback (most recent call last):
+TypeError: say_my_name() takes from 1 to 2 positional arguments but 3 were given
 
 >>> say_my_name("louis", 12)
 Traceback (most recent call last):
