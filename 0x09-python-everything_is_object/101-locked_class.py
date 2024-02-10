@@ -10,4 +10,4 @@ class LockedClass:
     creating new instance attributes
     """
 
-    __slot__ = ["first_name"]
+    __slot__ = "first_name"
