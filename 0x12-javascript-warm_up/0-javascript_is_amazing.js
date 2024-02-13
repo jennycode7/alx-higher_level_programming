@@ -1,3 +1,4 @@
 #!/usr/bin/node
-var myvar = 'JavaScript is amazing';
+let myvar = 'Java'
+myvar = 'JavaScript is amazing';
 console.log(myvar);
