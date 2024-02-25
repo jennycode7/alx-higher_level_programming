@@ -10,4 +10,4 @@ def to_json_string(my_obj):
     """
     converts my_obj to json formatted string
     """
-    return json.dump(my_obj)
+    return json.dumps(my_obj)
