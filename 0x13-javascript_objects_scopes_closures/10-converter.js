@@ -1,2 +1,12 @@
 #!/usr/bin/node
-exports.list = [1, 2, 3, 4, 5];
+
+// Converts a number from base 10 to another base passed as argument
+// with Closure
+
+exports.converter = function (base) {
+  function myConverter (n) {
+    return n.toString(base);
+  }
+
+  return myConverter;
+};
