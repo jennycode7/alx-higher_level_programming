@@ -1,4 +1,4 @@
->>> text_indentation = __import__('my_file_0').text_indentation
+>>> text_indentation = __import__('5-text_indentation').text_indentation
 
 add new line to text:
 >>> text_indentation("This is me.isn't it?")
@@ -13,3 +13,11 @@ isn't it?
 <BLANKLINE>
 :
 <BLANKLINE>
+>>> text_indentation("Holberton. School? How are you: John")
+Holberton.
+<BLANKLINE>
+School?
+<BLANKLINE>
+How are you:
+<BLANKLINE>
+John
