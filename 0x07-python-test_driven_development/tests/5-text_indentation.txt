@@ -1,0 +1,15 @@
+>>> text_indentation = __import__('my_file_0').text_indentation
+
+add new line to text:
+>>> text_indentation("This is me.isn't it?")
+This is me.
+<BLANKLINE>
+isn't it?
+<BLANKLINE>
+>>> text_indentation(".?:")
+.
+<BLANKLINE>
+?
+<BLANKLINE>
+:
+<BLANKLINE>
