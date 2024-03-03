@@ -1,5 +1,5 @@
 import unittest
-max_integer = __import__('6-main').max_integer
+max_integer = __import__('6-max_integer').max_integer
 
 
 class Test_Case(unittest.TestCase):
