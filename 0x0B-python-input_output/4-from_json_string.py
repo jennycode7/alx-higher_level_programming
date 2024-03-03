@@ -4,6 +4,7 @@ A module
 """
 import json
 
+
 def from_json_string(my_str):
     """
     form json to string
