@@ -1,8 +1,9 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 import json
 """
 A module
 """
+
 
 def load_from_json_file(filename):
     """
