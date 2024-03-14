@@ -2,9 +2,7 @@
 """
 A module
 """
-
 import json
-
 
 
 def load_from_json_file(filename):
