@@ -21,6 +21,10 @@ class Student:
         To json
         """
         return self.__dict__
+
     def reload_from_json(self, json):
+        """
+        reload to json
+        """
         for attr in json:
             setattr(self, attr, json[attr])
