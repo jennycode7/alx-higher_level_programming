@@ -7,6 +7,7 @@ A module
 class Base:
     """
     A class Base
+    foundation for other classes
     """
     __nb_objects = 0
 
