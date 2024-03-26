@@ -115,6 +115,7 @@ class Rectangle(Base):
         """
         Overrides str method
         """
-        ptr = '[Rectangle]' + ' (' + str(self.id) + ')' + ' ' + str(self.x) + '/'
-        ptr += str(self.y) + ' - ' + str(self.width) + '/' + str(self.height)
+        ptr = '[Rectangle]' + ' (' + str(self.id) + ')' + ' ' + str(self.x)
+        ptr += '/' + str(self.y) + ' - '
+        ptr += str(self.width) + '/' + str(self.height)
         return ptr
