@@ -110,3 +110,11 @@ class Rectangle(Base):
                 x += 1
             print()
             i += 1
+
+    def __str__(self):
+        """
+        Overrides str method
+        """
+        ptr = '[Rectangle]' + ' (' + str(self.id) + ')' + ' ' + str(self.x) + '/'
+        ptr += str(self.y) + ' - ' + str(self.width) + '/' + str(self.height)
+        return ptr
