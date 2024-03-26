@@ -104,7 +104,15 @@ class Rectangle(Base):
         """
         Displays rectangle
         """
+        line = 0
         for i in range(self.height):
+            while line < self.y:
+                print()
+                line += 1
+            space = 0
+            while space < self.x:
+                print(' ', end='')
+                space += 1
             for x in range(self.width):
                 print('#', end='')
                 x += 1
