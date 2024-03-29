@@ -2,7 +2,7 @@
 """
 A module
 """
-
+import json
 
 class Base:
     """
@@ -20,3 +20,11 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
+
+    def to_json_string(list_dictionaries):
+        """
+        Return a JSON string representation of the object
+        """
+        if list_dictionaries is None:
+            return "[]"
+        return json.dumps(list_dictionaries)
