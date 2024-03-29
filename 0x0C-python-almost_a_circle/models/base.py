@@ -4,7 +4,6 @@ A module
 """
 import json
 
-
 class Base:
     """
     A class Base
@@ -51,3 +50,14 @@ class Base:
         if json_string is None:
             json_string = "[]"
         return json.loads(json_string)
+
+    @classmethod
+    def create(cls, **dictionary):
+        """
+        returns an instance with all attributes already set
+        """
+        if dictionary is None:
+            return None
+        dummy_instance = cls(2, 5)
+        dummy_instance.update(**dictionary)
+        return dummy_instance
