@@ -49,5 +49,5 @@ class Base:
         Return a list of objects from a JSON string
         """
         if json_string is None:
-            json_string = []
+            json_string = "[]"
         return json.loads(json_string)
