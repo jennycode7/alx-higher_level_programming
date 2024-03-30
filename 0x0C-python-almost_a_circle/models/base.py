@@ -3,6 +3,7 @@
 A module
 """
 import json
+form os import json
 
 
 class Base:
@@ -74,8 +75,10 @@ class Base:
         Returns a list of instances of the class
         You must use the from_json_string and create methods
         """
-        if cls is None:
-            return None
+        filename = f"{cls.__name__}.json"
+        if path.exists(filename) is false:
+            return []
+
         with open(f"{cls.__name__}.json", "r") as file:
             objs = cls.from_json_string(file.read())
             instances = []
