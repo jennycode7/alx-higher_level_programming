@@ -4,6 +4,7 @@ A module
 """
 import json
 
+
 class Base:
     """
     A class Base
