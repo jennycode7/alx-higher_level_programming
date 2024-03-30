@@ -3,7 +3,7 @@
 A module
 """
 import json
-from os import json
+from os import path
 
 
 class Base:
