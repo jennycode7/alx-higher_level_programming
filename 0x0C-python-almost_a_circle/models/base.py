@@ -3,7 +3,7 @@
 A module
 """
 import json
-form os import json
+from os import json
 
 
 class Base:
