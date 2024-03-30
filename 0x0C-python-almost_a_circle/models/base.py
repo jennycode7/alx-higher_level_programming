@@ -59,6 +59,9 @@ class Base:
         """
         if dictionary is None:
             return None
-        dummy_instance = cls(2, 5)
+        if cls.__name__ == 'Rectangle':
+            dummy_instance = cls(2, 5)
+        if cls.__name__ == 'Square':
+            dummy_instance = cls(2)
         dummy_instance.update(**dictionary)
         return dummy_instance
