@@ -65,3 +65,21 @@ class Base:
             dummy_instance = cls(2)
         dummy_instance.update(**dictionary)
         return dummy_instance
+
+    @classmethod
+    def load_from_file(cls):
+        """
+        Load the list of objects from a file
+        The filename must be: <Class name>.json
+        Returns a list of instances of the class
+        You must use the from_json_string and create methods
+        """
+        if cls is None:
+            return None
+        with open(f"{cls.__name__}.json", "r") as file:
+            objs = cls.from_json_string(file.read())
+            instances = []
+
+            for obj in objs:
+                instances.append(cls.create(**obj))
+            return instances
