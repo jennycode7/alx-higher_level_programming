@@ -76,10 +76,10 @@ class Base:
         You must use the from_json_string and create methods
         """
         filename = f"{cls.__name__}.json"
-        if path.exists(filename) is false:
+        if path.exists(filename) is False:
             return []
 
-        with open(f"{cls.__name__}.json", "r") as file:
+        with open(filename, "r") as file:
             objs = cls.from_json_string(file.read())
             instances = []
 
