@@ -1,2 +1,2 @@
 --@Block
-show DATABASES;
+SHOW DATABASES;
