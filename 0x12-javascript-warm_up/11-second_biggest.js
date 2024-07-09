@@ -3,7 +3,7 @@
 const FindSecondLargest = (...args) => {
   const integers = args.map(Number).filter(num => Number.isInteger(num));
 
-  if (integers.length === 0 || integers.length === 0) {
+  if (integers.length === 0 || integers.length === 1) {
     console.log(0);
     return;
   }
