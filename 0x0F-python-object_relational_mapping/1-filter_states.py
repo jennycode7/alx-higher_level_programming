@@ -14,7 +14,7 @@ def states_with_N(username, password, name):
                          passwd=password, db=name)
 
     cursor = db.cursor()
-    cursor.execute('''SELECT * FROM states'
+    cursor.execute('''SELECT * FROM states
                    WHERE name LIKE BINARY 'N%' ORDER BY id ASC''')
     rows = cursor.fetchall()
 
