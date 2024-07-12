@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-import sys
-import MySQLdb
-
 '''
 A module
 '''
+import sys
+import MySQLdb
 
 def list_states(username, password, name):
     '''
