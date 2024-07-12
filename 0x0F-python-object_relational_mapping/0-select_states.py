@@ -2,6 +2,9 @@
 import sys
 import MySQLdb
 
+'''
+A module
+'''
 
 def list_states(username, password, name):
     '''
