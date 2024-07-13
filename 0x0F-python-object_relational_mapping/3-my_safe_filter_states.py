@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+'''
+A module
+'''
 import sys
 import MySQLdb
 
